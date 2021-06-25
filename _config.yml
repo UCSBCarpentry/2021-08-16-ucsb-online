@@ -40,7 +40,7 @@ curriculum: "FIXME"
 # value of the variable below ("flavor") to get the schedule and installation
 # instructions updated accordingly (valid values are 'r' or 'python').
 # Note: this is only for Data Carpentry and SWC at this time.
-flavor: "FIXME"
+flavor: "r"
 
 # Overall title for the Workshop.
 # This variable is used to (optionally) add a title in the "jumbotron"
@@ -48,7 +48,7 @@ flavor: "FIXME"
 # Most workshops don't use extra pages. More information about extra
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
-title: "Workshop Title"
+title: "Summer Carpentry: Intro to R"
 
 #------------------------------------------------------------
 # Pilot workshop settings (only relevant for lesson pilots).
@@ -74,7 +74,7 @@ kind: "workshop"
 # Magic to make URLs resolve both locally and on GitHub.
 # See https://help.github.com/articles/repository-metadata-on-github-pages/.
 # Please don't change it: <USERNAME>/<PROJECT> is correct.
-repository: <USERNAME>/<PROJECT>
+repository: <UCSBCarpentry>/<2021-08-16-ucsb-introR-online>
 
 # Email address, no mailto:
 # (Don't change this -- the contact address for your workshop will be set
