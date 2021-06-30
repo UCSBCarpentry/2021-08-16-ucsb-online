@@ -17,10 +17,10 @@ keypoints:
 source: Rmd
 ---
 
-```{r, include=FALSE}
-source("../bin/chunk-options.R")
-knitr_fig_path("03-")
-```
+# ```{r, include=FALSE}
+# source("../bin/chunk-options.R")
+# knitr_fig_path("03-")
+# ```
 
 One of R's most powerful features is its ability to deal with tabular data -
 such as you may already have in a spreadsheet or a CSV file. Let's start by
