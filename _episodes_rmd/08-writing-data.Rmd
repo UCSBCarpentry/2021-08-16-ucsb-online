@@ -12,21 +12,21 @@ keypoints:
 source: Rmd
 ---
 
-```{r, include=FALSE}
-source("../bin/chunk-options.R")
-knitr_fig_path("08-")
+# ```{r, include=FALSE}
+# source("../bin/chunk-options.R")
+# knitr_fig_path("08-")
 # Silently load in the data so the rest of the lesson works
-library("ggplot2")
-library(dplyr)
-gapminder <- read.csv("data/gapminder_data.csv", header=TRUE)
+# library("ggplot2")
+# library(dplyr)
+# gapminder <- read.csv("data/gapminder_data.csv", header=TRUE)
 
 # load data that learners created in previous episode
-gapminder_small_2 <- filter(gapminder, continent == "Americas", year %in% c(1952, 2007))
+# gapminder_small_2 <- filter(gapminder, continent == "Americas", year %in% c(1952, 2007))
 
 # Temporarily create a cleaned-data directory so that the writing examples work
 # The students should have created this in topic 2.
-dir.create("cleaned-data")
-```
+#dir.create("cleaned-data")
+#```
 
 
 ## Saving plots
