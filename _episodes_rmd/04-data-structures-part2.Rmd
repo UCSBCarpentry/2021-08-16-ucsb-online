@@ -22,10 +22,10 @@ keypoints:
 source: Rmd
 ---
 
-```{r, include=FALSE}
-source("../bin/chunk-options.R")
-knitr_fig_path("04-")
-```
+# ```{r, include=FALSE}
+# source("../bin/chunk-options.R")
+# knitr_fig_path("04-")
+# ```
 
 At this point, you've seen it all: in the last lesson, we toured all the basic
 data types and data structures in R. Everything you do will be a manipulation of
