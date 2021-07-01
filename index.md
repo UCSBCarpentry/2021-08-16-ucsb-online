@@ -400,7 +400,14 @@ please preview your site before committing, and make sure to run
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to software as described below.
+   you will need to install the software listed below.
+<ul style="list-style-type:circle">
+  <li> <a href="https://www.rstudio.com/products/rstudio/download/">Rstudio version 1.2 or greater</a></li> 
+  <li> <a href="https://cloud.r-project.org/">R version 4.0 or greater</a></li>
+  <li> <a href="https://cran.r-project.org/bin/windows/Rtools/">Rtools4.0</a> if you are a <b>Windows user</b>.This is crucial for packages to 
+       build and work correctly in Rstudio </li>
+  <li> Mac users should check their <a href="https://developer.apple.com/xcode/">Xcode</a> versions or install the update from the App Store (free)</li>
+</ul>
   In addition, you will need an up-to-date web browser.
 </p>
 <p>
