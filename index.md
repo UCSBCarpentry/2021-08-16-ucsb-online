@@ -408,6 +408,8 @@ please preview your site before committing, and make sure to run
        build and work correctly in Rstudio </li>
   <li> Mac users should check their <a href="https://developer.apple.com/xcode/">Xcode</a> versions or install the update from the App Store (free)</li>
 </ul>
+  You can download the <a href="https://github.com/UCSBCarpentry/2021-08-16-ucsb-introR-online/blob/gh-pages/data/IntroR_gapminder.zip">data used for the workshop here</a>.
+<br>
   In addition, you will need an up-to-date web browser.
 </p>
 <p>
