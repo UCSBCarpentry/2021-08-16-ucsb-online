@@ -115,6 +115,9 @@ get shared between projects.
 
 ### Keep related data together
 
+Some file formats are 3 - 6 files that need to be kept together and have the same name, e.g. shapefiles. It may be tempting to store those components separately, 
+but if you separate those files from each other, they will become unusable. 
+
 ### Keep a consistent naming scheme
 It is generally best to avoid renaming downloaded data, 
 so that a clear connection is maintained with the point of truth. 
