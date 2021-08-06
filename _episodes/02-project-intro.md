@@ -66,20 +66,20 @@ project.
 > 1. Click the "File" menu button, then "New Project".
 > 2. Click "New Directory".
 > 3. Click "Empty Project".
-> 4. Type in "r-geospatial" as the name of the directory.
+> 4. Type in "r-intro" as the name of the directory.
 > 5. Click the "Create Project" button.
 {: .challenge}
 
 A key advantage of an RStudio Project is that whenever we open this project in
   subsequent RStudio sessions our working directory will *always* be set to the
-  folder `r-geospatial`.
+  folder `r-intro`.
 Let's check our working directory by entering the following into the R console:
 
 ```r
 getwd()
 ```
 
-R should return `your/path/r-geospatial` as the working directory.
+R should return `your/path/r-intro` as the working directory.
 
 ## Best practices for project organization
 
@@ -115,12 +115,8 @@ get shared between projects.
 
 ### Keep related data together
 
-Some GIS file formats are really 3-6 files that need to be kept together and have the same name, 
-e.g. shapefiles. It may be tempting to store those components separately, 
-but your spatial data will be unusable if you do that.
-
 ### Keep a consistent naming scheme
-It is generally best to avoid renaming downloaded spatial data, 
+It is generally best to avoid renaming downloaded data, 
 so that a clear connection is maintained with the point of truth. 
 You may otherwise find yourself wondering whether `file_A` really is just a copy of `Official_file_on_website` or not.
 
