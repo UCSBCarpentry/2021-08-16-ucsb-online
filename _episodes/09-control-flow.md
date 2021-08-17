@@ -96,44 +96,43 @@ As we can see, the not equal message was printed because the vector x is
 
     ## [1] FALSE
 
-> ## Challenge 1
->
-> Use an `if()` statement to print a suitable message reporting whether
-> there are any records from 2002 in the `gapminder` dataset. Now do the
-> same for 2012.
->
-> > ## Solution to Challenge 1
-> >
-> > We will first see a solution to Challenge 1 which does not use the
-> > `any()` function. We first obtain a logical vector describing which
-> > element of `gapminder$year` is equal to `2002`:
-> >
-> >     gapminder[(gapminder$year == 2002),]
-> >
-> > Then, we count the number of rows of the data.frame `gapminder` that
-> > correspond to the 2002:
-> >
-> >     rows2002_number <- nrow(gapminder[(gapminder$year == 2002),])
-> >
-> > The presence of any record for the year 2002 is equivalent to the
-> > request that `rows2002_number` is one or more:
-> >
-> >     rows2002_number >= 1
-> >
-> > Putting all together, we obtain:
-> >
-> >     if(nrow(gapminder[(gapminder$year == 2002),]) >= 1){
-> >        print("Record(s) for the year 2002 found.")
-> >     }
-> >
-> > All this can be done more quickly with `any()`. The logical
-> > condition can be expressed as:
-> >
-> >     if(any(gapminder$year == 2002)){
-> >        print("Record(s) for the year 2002 found.")
-> >     }
-> >
-> > {: .solution} {: .challenge}
+## Challenge 1
+
+Use an `if()` statement to print a suitable message reporting whether
+there are any records from 2002 in the `gapminder` dataset. Now do the
+same for 2012.
+## Solution to Challenge 1
+
+We will first see a solution to Challenge 1 which does not use the
+`any()` function. We first obtain a logical vector describing which
+element of `gapminder$year` is equal to `2002`:
+
+     gapminder[(gapminder$year == 2002),]
+
+ Then, we count the number of rows of the data.frame `gapminder` that
+ correspond to the 2002:
+
+     rows2002_number <- nrow(gapminder[(gapminder$year == 2002),])
+
+ The presence of any record for the year 2002 is equivalent to the
+ request that `rows2002_number` is one or more:
+
+     rows2002_number >= 1
+
+ Putting all together, we obtain:
+
+     if(nrow(gapminder[(gapminder$year == 2002),]) >= 1){
+        print("Record(s) for the year 2002 found.")
+     }
+
+ All this can be done more quickly with `any()`. The logical
+ condition can be expressed as:
+
+     if(any(gapminder$year == 2002)){
+        print("Record(s) for the year 2002 found.")
+     }
+
+ {: .solution} {: .challenge}
 
 Did anyone get a warning message like this?
 
